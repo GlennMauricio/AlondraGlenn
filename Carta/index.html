@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="envelope-wrapper">
+            <div class="envelope">
+                <div class="letter">
+                    <div class="text">
+                        <strong>Para la mas hermosa "Alondra Espindola Olivera".</strong>
+                        <p>
+                            Hola, te dedico esta carta con el mas grande amor que me es posible solo para ti, Te amo como no tienes idea y perdon si es dificil amarme pero creeme
+                            que jamas te dejare de amar bebe.<br>
+
+                            ATTE:Tu ingeniero de confianza besos.<br><br><br><br><br><br>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="heart"></div>
+        </div>
+    </div>
+    <script>
+        const envelope = document.querySelector('.envelope-wrapper');
+        envelope.addEventListener('click', () => {
+            envelope.classList.toggle('flap');
+        });
+    </script>
+</body>
+</html>
